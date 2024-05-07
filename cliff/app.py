@@ -171,7 +171,7 @@ class App(object):
             '--log-file',
             action='store',
             default=None,
-            help='Specify a file to log output. Disabled by default.',
+            help='Specify a file to log output to. Disabled by default.',
         )
         if self.deferred_help:
             parser.add_argument(
